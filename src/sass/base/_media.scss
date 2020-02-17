@@ -23,9 +23,8 @@
             line-height: 20px;
         }
         &__subheader {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 500;
-            line-height: 18px;
         }
         &__icons {
             margin-top: 45px;
@@ -59,9 +58,17 @@
             height: 50px;
             font-size: 15px;
         }
+        &_submit {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+        }
     }
     .title {
         font-size: 26px;
+        &_left {
+            font-size: 26px;
+            }
     }
     .advantages {
         min-height: 430px;
@@ -75,7 +82,34 @@
             margin-top: 12px;
         }
     }
-
+    .consultation {
+        min-height: 630px;
+        padding: 80px 0 85px 0;
+        &__descr {
+            font-size: 18px;
+            margin-top: 60px;
+        }
+    }
+    .feed-form {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        input {
+            height: 45px;
+            background-color: #ffffff;
+            border-radius: 5.0px;
+            margin-bottom: 15px;
+            border: none;
+            padding: 0 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #4b4b4b;
+            &:nth-child(3) {
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
 
 
@@ -151,9 +185,17 @@
             height: 40px;
             font-size: 14px;
         }
+        &_submit {
+            width: 100%;
+            height: 45px;
+            font-size: 12px;
+        }
     }
     .title {
         font-size: 26px;
+        &_left {
+            font-size: 24px;
+            }
     }
     .advantages {
         min-height: 430px;
@@ -171,6 +213,35 @@
         }
         &__item {
             max-width: 200px;
+        }
+    }
+    .consultation {
+        min-height: 580px;
+        padding: 70px 0 75px 0;
+        &__descr {
+            font-size: 16px;
+            margin-top: 50px;
+            line-height: 20px;
+        }
+    }
+    .feed-form {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        input {
+            height: 40px;
+            background-color: #ffffff;
+            border-radius: 5.0px;
+            margin-bottom: 15px;
+            border: none;
+            padding: 0 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #4b4b4b;
+            &:nth-child(3) {
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -207,12 +278,11 @@
         &__header {
             font-size: 26px;
             font-weight: 700;
-            line-height: 20px;
         }
         &__subheader {
             font-size: 14px;
             font-weight: 500;
-            line-height: 18px;
+            margin-top: 5px;
         }
         &__icons {
             margin-top: 45px;
@@ -246,9 +316,17 @@
             height: 30px;
             font-size: 12px;
         }
+        &_submit {
+            width: 100%;
+            height: 40px;
+            font-size: 10px;
+        }
     }
     .title {
         font-size: 20px;
+        &_left {
+            font-size: 18px;
+            }
     }
     .advantages {
         min-height: 420px;
@@ -266,6 +344,35 @@
         }
         &__item {
             max-width: 150px;
+        }
+    }
+    .consultation {
+        min-height: 500px;
+        padding: 60px 0 65px 0;
+        &__descr {
+            font-size: 14px;
+            margin-top: 50px;
+            line-height: 18px;
+        }
+    }
+    .feed-form {
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+        input {
+            height: 40px;
+            background-color: #ffffff;
+            border-radius: 5.0px;
+            margin-bottom: 15px;
+            border: none;
+            padding: 0 20px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #4b4b4b;
+            &:nth-child(3) {
+                margin-bottom: 20px;
+            }
         }
     }
 
@@ -303,13 +410,12 @@
         &__header {
             font-size: 18px;
             font-weight: 700;
-            line-height: 20px;
+            line-height: 10px;
         }
         &__subheader {
             font-size: 10px;
             font-weight: 500;
-            line-height: 18px;
-            margin-top: 7px;
+            margin-top: 2px;
         }
         &__icons {
             margin-top: 35px;
@@ -343,9 +449,17 @@
             height: 25px;
             font-size: 7px;
         }
+        &_submit {
+            width: 100%;
+            height: 30px;
+            font-size: 10px;
+        }
     }
     .title {
         font-size: 14px;
+        &_left {
+            font-size: 12px;
+            }
     }
     .advantages {
         min-height: 380px;
@@ -366,6 +480,35 @@
             max-width: 80px;
             img {
                 max-width: 50%;
+            }
+        }
+    }
+    .consultation {
+        min-height: 400px;
+        padding: 50px 0 55px 0;
+        &__descr {
+            font-size: 12px;
+            margin-top: 40px;
+            line-height: 14px;
+        }
+    }
+    .feed-form {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        input {
+            height: 30px;
+            background-color: #ffffff;
+            border-radius: 5.0px;
+            margin-bottom: 15px;
+            border: none;
+            padding: 0 20px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #4b4b4b;
+            &:nth-child(3) {
+                margin-bottom: 20px;
             }
         }
     }
